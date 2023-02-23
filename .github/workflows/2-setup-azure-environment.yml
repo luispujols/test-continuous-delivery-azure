@@ -78,10 +78,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Pull main
-      - name: Pull main
-        run: ./.github/script/pull-main.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Let's get all the branches
+          ref: main
 
       # Update README to close <details id=2> and open <details id=3>
       # and set STEP to '3'
