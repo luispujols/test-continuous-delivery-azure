@@ -90,7 +90,7 @@ For now, we'll focus on staging. We'll spin up and destroy our environment in a 
 </details>
 
 
-<details id=2 open>
+<details id=2>
 <summary><h2>Step 2: Set up an Azure environment</h2></summary>
 
 ### Nice work triggering a job on specific labels 
@@ -273,7 +273,7 @@ We won't be going into detail on the steps of this workflow, but it would be a g
 </details>
 
 
-<details id=3>
+<details id=3 open>
 <summary><h2>Step 3: Spin up an environment based on labels</h2></summary>
 
 ### Nicely done! 
