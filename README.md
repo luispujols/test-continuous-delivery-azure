@@ -16,7 +16,7 @@
   Do not use quotes on the <details> tag attributes.
 -->
 
-<details id=0 open>
+<details id=0>
 <summary><h2>Welcome</h2></summary>
 
 Create two deployment workflows using GitHub Actions and Microsoft Azure.
@@ -39,7 +39,7 @@ Create two deployment workflows using GitHub Actions and Microsoft Azure.
 
 </details>
 
-<details id=1>
+<details id=1 open>
 <summary><h2>Step 1: Trigger a job based on labels</h2></summary>
 
 ![Screen Shot 2022-06-07 at 4 01 43 PM](https://user-images.githubusercontent.com/6351798/172490466-00f27580-8906-471f-ae83-ef3b6370df7d.png)
