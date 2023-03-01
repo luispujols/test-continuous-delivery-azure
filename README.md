@@ -437,7 +437,7 @@ Now that the proper configuration and workflow files are present, let's test our
 
 </details>
 
-<details id=5 open>
+<details id=5>
 <summary><h2>Step 5: Deploy to a production environment based on labels</h2></summary>
 
 ### Nicely done
@@ -565,7 +565,7 @@ Great! The syntax you used tells GitHub Actions to only run that workflow when a
 
 </details>
 
-<details id=6>
+<details id=6 open>
 <summary><h2>Step 6: Production deployment</h2></summary>
 
 ### Nice work!
